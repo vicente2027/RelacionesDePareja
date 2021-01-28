@@ -26,6 +26,7 @@ from scipy.integrate import solve_ivp
 
 
 # t variable independiete
+
 #Definimos nuestra funcion
 def sis_edos(t, ics,s1, s2, b1, b2, a1, a2, k1, k2, p1, p2, u, y, h):
     # Condiciones iniciales
