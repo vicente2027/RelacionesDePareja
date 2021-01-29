@@ -7,7 +7,9 @@ import numpy as np
 import sympy as sp
 import matplotlib.pyplot as plt
 from scipy.integrate import solve_ivp
-
+# Autores Vicente Cuevas Cruz, Juan de Jesus Arellano Gomez
+# Nos apoyamos en documentacion oficial de https://matplotlib.org/tutorials/introductory/pyplot.html
+# y para resolver el modelo matematico en el video de Salvador H-V  https://www.youtube.com/watch?v=kK8zxlOs6Zk
 ''' Sistema de ecuaciones a resolver 
     dv(t)/dt = S1(v? - v(t)) + k1(1-p1) (b1/y)i(t) + h(t), v(0) = v0
     di(t)/dt = S2(i? - i(t)) + k2(1-p2)uv(t), i(0) = i0      
